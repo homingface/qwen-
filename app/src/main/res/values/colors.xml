@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#1B5E20</color>
+    <color name="ic_launcher_foreground">#A5D6A7</color>
+    <color name="verdict_safe">#2E7D32</color>
+    <color name="verdict_suspicious">#F9A825</color>
+    <color name="verdict_malicious">#C62828</color>
+</resources>

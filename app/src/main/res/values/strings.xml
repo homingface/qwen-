@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">巡甲卫士</string>
+    <string name="scan_now">立即扫描</string>
+    <string name="scanning">正在扫描…</string>
+    <string name="safe_apps">安全应用</string>
+    <string name="suspicious_apps">可疑应用</string>
+    <string name="malicious_apps">恶意应用</string>
+    <string name="whitelist">白名单</string>
+    <string name="blacklist">黑名单</string>
+    <string name="rules">规则库</string>
+    <string name="shizuku_status">Shizuku 状态</string>
+    <string name="grant_shizuku">申请 Shizuku 授权</string>
+    <string name="shizuku_active">Shizuku 已授权：可强制停止/禁用/卸载恶意应用</string>
+    <string name="shizuku_inactive">Shizuku 未授权：仅提醒，处置需手动确认</string>
+    <string name="protection_on">实时防护已开启：安装新应用时自动检测</string>
+    <string name="add_whitelist">加入白名单</string>
+    <string name="add_blacklist">加入黑名单</string>
+    <string name="uninstall">卸载</string>
+    <string name="force_stop">强制停止</string>
+    <string name="disable_app">禁用应用</string>
+    <string name="import_rules">导入规则</string>
+    <string name="export_rules">导出规则</string>
+    <string name="import_db">导入恶意库</string>
+    <string name="export_db">导出恶意库</string>
+    <string name="detail_title">检测详情</string>
+    <string name="no_findings">未发现风险</string>
+</resources>

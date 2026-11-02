@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ShieldPatrol" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#1B5E20</item>
+        <item name="colorSecondary">#0D47A1</item>
+    </style>
+</resources>

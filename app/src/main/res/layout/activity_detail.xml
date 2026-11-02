@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/layoutActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnForceStop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/force_stop" />
+
+            <Button
+                android:id="@+id/btnDisable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/disable_app" />
+
+            <Button
+                android:id="@+id/btnUninstall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uninstall" />
+
+            <Button
+                android:id="@+id/btnAddWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_whitelist" />
+
+            <Button
+                android:id="@+id/btnAddBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_blacklist" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
